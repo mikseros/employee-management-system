@@ -20,7 +20,7 @@ import com.mikseros.exception.ResourceNotFoundException;
 import com.mikseros.model.Employee;
 import com.mikseros.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:3000"})
 @RestController
 @RequestMapping("/api/v1/") //standard API end-point
 public class EmployeeController {
